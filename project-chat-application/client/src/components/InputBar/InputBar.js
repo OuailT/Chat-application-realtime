@@ -10,9 +10,10 @@ const InputBar = ({setMessage, sendMessage, message}) => {
                 className="input"
                 value={message}
                 placeholder="Type a message..."
-                onKeyPress={(e) => e.key === 'Enter' ? sendMessage(e) : null }/>
+                onChange={(e)=> setMessage(e.target.value) }
+                onKeyPress={(e) => e.key === 'Enter' ? sendMessage(e) : null } />
 
-            <button className="sendButton" onClick={ e => sendMessage(e)} >Send</button>
+            <button className="sendButton" onClick={ e => sendMessage(e)}>Send</button>
         </form>
 
     )
