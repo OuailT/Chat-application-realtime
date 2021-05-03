@@ -1,5 +1,5 @@
-# Chat-application-realtime
-Build and deploy a real-time chat application using React.js, Node.js, Express.js, and Socket.io
+# Responsive "Movies Cards App" with a modern UI.
+I created this project using React.js, React Paginate, React Select and React hooks.
 
 Usage
 # Install dependencies
